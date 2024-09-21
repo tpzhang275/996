@@ -60,6 +60,37 @@ body {
     transform: scale(1.05); /* 鼠标悬停时放大按钮 */
 }
 
+/* Logo 样式 */
+.logo {
+    position: absolute; /* 使用绝对定位使 logo 居中 */
+    top: 50%; /* 相对于父容器的顶部居中 */
+    left: 50%; /* 相对于父容器的左侧居中 */
+    transform: translate(-50%, -50%); /* 使用 transform 调整 logo 的位置 */
+    z-index: 1; /* 确保 logo 显示在按钮上方 */
+}
+
+.logo-img {
+    width: 100px; /* 根据需要调整 Logo 的大小 */
+    height: auto;
+}
+
+
+
+/* Logo 样式 */
+.logo {
+    position: absolute; /* 使用绝对定位使 logo 居中 */
+    top: 15%; /* 相对于父容器的顶部居中 */
+    left: 50%; /* 相对于父容器的左侧居中 */
+    transform: translate(-50%, -50%); /* 使用 transform 调整 logo 的位置 */
+    z-index: 1; /* 确保 logo 显示在按钮上方 */
+}
+
+.logo-img {
+    width: 480px; /* 根据需要调整 Logo 的大小 */
+    height: auto;
+}
+
+
 /* 在小屏幕设备上隐藏PC下载按钮 */
 @media (max-width: 768px) {
     .pc-btn {
