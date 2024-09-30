@@ -1,4 +1,13 @@
 /* styles.css */
+
+body {
+    transform-origin: 0 0; /* 设置缩放的原点为左上角 */
+    transform: scale(1); /* 初始比例为1，100% */
+}
+
+
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -60,34 +69,22 @@ body {
     transform: scale(1.05); /* 鼠标悬停时放大按钮 */
 }
 
-/* Logo 样式 */
-.logo {
-    position: absolute; /* 使用绝对定位使 logo 居中 */
-    top: 50%; /* 相对于父容器的顶部居中 */
-    left: 50%; /* 相对于父容器的左侧居中 */
-    transform: translate(-50%, -50%); /* 使用 transform 调整 logo 的位置 */
-    z-index: 1; /* 确保 logo 显示在按钮上方 */
-}
 
-.logo-img {
-    width: 100px; /* 根据需要调整 Logo 的大小 */
-    height: auto;
-}
 
 
 
 /* Logo 样式 */
 .logo {
     position: absolute; /* 使用绝对定位使 logo 居中 */
-    top: 15%; /* 相对于父容器的顶部居中 */
+    top: 12%; /* 相对于父容器的顶部居中 */
     left: 50%; /* 相对于父容器的左侧居中 */
     transform: translate(-50%, -50%); /* 使用 transform 调整 logo 的位置 */
-    z-index: 1; /* 确保 logo 显示在按钮上方 */
+    z-index: -1; /* 确保 logo 显示在按钮上方 */
 }
 
 .logo-img {
-    width: 480px; /* 根据需要调整 Logo 的大小 */
-    height: auto;
+    width: 294px; /* 根据需要调整 Logo 的大小 */
+    height: 144.5px;
 }
 
 
@@ -104,8 +101,8 @@ body {
 
 .carousel {
     position: relative;
-    width: 90%; /* 轮播图宽度设置为 90%，居中显示 */
-    max-width: 1200px; /* 轮播图的最大宽度 */
+    width: auto; /* 轮播图宽度设置为 90%，居中显示 */
+    max-width: 800px; /* 轮播图的最大宽度 */
     height: auto; /* 自动调整高度 */
     overflow: hidden; /* 隐藏超出的部分 */
     border-radius: 10px;
@@ -150,8 +147,8 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* 响应式设计: 当屏幕宽度小于 768px 时调整轮播图的高度 */
-@media (max-width: 768px) {
+/* 响应式设计: 当屏幕宽度小于 768px 时调整轮播图的高度  768px */
+@media (max-width: 375px) {
     .carousel {
         height: 200px; /* 小屏幕下轮播图高度固定 */
     }
