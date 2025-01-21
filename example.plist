@@ -19,7 +19,7 @@
                 <key>bundle-identifier</key>
                 <string>com.shenghe.a207163</string> <!-- 应用的 Bundle Identifier -->
                 <key>bundle-version</key>
-                <string>1.0</string> <!-- 应用版本 -->
+                <string>1.0.1</string> <!-- 应用版本 -->
                 <key>kind</key>
                 <string>software</string> <!-- 资源类型 -->
                 <key>title</key>
