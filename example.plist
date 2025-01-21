@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-      <key>items</key>
-      <array>
+<dict>
+    <key>items</key>
+    <array>
         <dict>
-           <key>assets</key>
-           <array>
-             <dict>
-               <key>kind</key>
-               <string>software-package</string>
-               <key>url</key>
-               <string><![CDATA[https://static.dhsf.huiyuehz.com/Package/promote/207163_115189_20250121214810eOZxSC.ipa?v=20250121215713]]></string>
-             </dict>
-             <dict>
-               <key>kind</key>
-               <string>display-image</string>
-               <key>needs-shine</key>
-               <integer>0</integer>
-               <key>url</key>
-               <string><![CDATA[https://static.dhsf.huiyuehz.com/cq_engine_gmae_image/206316/image206316_144_144.png?v=20250121215754]]></string>
-             </dict>
-             <dict>
-               <key>kind</key>
-               <string>full-size-image</string>
-               <key>needs-shine</key>
-               <true/>
-               <key>url</key>
-               <string><![CDATA[https://static.dhsf.huiyuehz.com/cq_engine_gmae_image/206316/image206316_144_144.png?v=20250121215754]]></string>
-             </dict>
-           </array>
-           <key>metadata</key>
-           <dict>
-             <key>bundle-identifier</key>
-             <string>com.fgcq.a118390</string>
-             <key>bundle-version</key>
-             <string><![CDATA[1.0.0]]></string>
-             <key>kind</key>
-             <string>software</string>
-             <key>title</key>
-             <string><![CDATA[测试]]></string>			 
-           </dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string> <!-- 资源类型 -->
+                    <key>url</key>
+                    <string>https://static.dhsf.huiyuehz.com/Package/promote/207163_115189_20250121214810eOZxSC.ipa</string> <!-- 应用安装包地址 -->
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.fgcq.p210799</string> <!-- 应用的 Bundle Identifier -->
+                <key>bundle-version</key>
+                <string>1.0</string> <!-- 应用版本 -->
+                <key>kind</key>
+                <string>software</string> <!-- 资源类型 -->
+                <key>title</key>
+                <string>我的应用名字</string> <!-- 应用名称 -->
+            </dict>
         </dict>
-      </array>
-  </dict>
+    </array>
+</dict>
 </plist>
